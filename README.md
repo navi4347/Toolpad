@@ -1,12 +1,19 @@
-# React + Vite
+# 🚀 NAVI – AI Agent Creation Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**NAVI** is a modular, modern React-based dashboard to build and manage AI-powered services like Text-to-Image, Voice-to-Text, Translation, and more. Built with **Vite**, **React 19**, and **Material UI**, it serves as the foundation for creating your personal AI assistant: **Allie**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Tech Stack
 
-## Expanding the ESLint configuration
+- ⚛️ **React 19**
+- ⚡ **Vite** for fast builds & hot reload
+- 🎨 **Material UI** (MUI) for UI components
+- 💅 **Emotion** for styling
+- ✅ **ESLint** for code linting
+- 📂 Modular file structure for scalability
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+node generate-structure.js
+npm install react-router-dom
+npm install @mui/icons-material
+npm install @mui/material @emotion/react @emotion/styled
