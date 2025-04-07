@@ -9,6 +9,11 @@ const structure = {
     components: {},
     contexts: {},
     hooks: {},
+    layouts: {
+      DashboardLayout: {
+        "DashboardLayout.jsx": "",
+      },
+    },
     modules: {
       auth: {
         "Login.jsx": "",
@@ -23,7 +28,6 @@ const structure = {
         "TextToImage.jsx": "",
         "textToImageService.jsx": "",
         "useTextToImage.jsx": "",
-        "TextToVoice.jsx": "", 
       },
       voiceToText: {
         "VoiceToText.jsx": "",
