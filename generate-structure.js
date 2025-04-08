@@ -39,6 +39,9 @@ const structure = {
         "translationService.jsx": "",
         "useTextTranslation.jsx": "",
       },
+      common: {
+        "NotFound.jsx": "",
+      },
     },
     services: {
       "api.js": "",

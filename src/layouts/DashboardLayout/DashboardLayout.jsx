@@ -41,7 +41,7 @@ const getPageComponent = (pathname) => {
     case '/text-translation':
       return <TextTranslation />;
     default:
-      return <div>404: Page Not Found</div>;
+      return <Dashboard />;
   }
 };
 
