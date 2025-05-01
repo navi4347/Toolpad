@@ -4,6 +4,7 @@ import { cwd } from "process";
 import { constants } from "fs";
 
 const structure = {
+  ".env": "",
   src: {
     assets: {},
     components: {},
@@ -26,18 +27,21 @@ const structure = {
       },
       textToImage: {
         "TextToImage.jsx": "",
-        "textToImageService.jsx": "",
-        "useTextToImage.jsx": "",
+        "TextToImage.module.css": "",
+        "textToImageService.js": "",
+        "useTextToImage.js": "",
       },
       voiceToText: {
         "VoiceToText.jsx": "",
-        "voiceToTextService.jsx": "",
-        "useVoiceToText.jsx": "",
+        "VoiceToText.module.css": "",
+        "voiceToTextService.js": "",
+        "useVoiceToText.js": "",
       },
       textTranslation: {
         "TextTranslation.jsx": "",
-        "translationService.jsx": "",
-        "useTextTranslation.jsx": "",
+        "TextTranslation.module.css": "",
+        "translationService.js": "",
+        "useTextTranslation.js": "",
       },
       common: {
         "NotFound.jsx": "",
@@ -55,6 +59,9 @@ const structure = {
     },
     styles: {
       "theme.js": "",
+    },
+    server: {
+      "server.js": "",
     },
     "App.jsx": "",
     "routes.jsx": "",

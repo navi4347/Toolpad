@@ -20,5 +20,8 @@ npm install @mui/material @emotion/react @emotion/styled
 npm install @toolpad/core
 npm install lottie-react
 npm install axios
+npm install express cors dotenv openai
+npm install qs
 
 node generate-structure.js
+docker run -d -p 5000:5000 libretranslate/libretranslate
